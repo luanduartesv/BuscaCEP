@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BuscaCEP/static/css/main.ea83d6b7.css",
+    "main.js": "/BuscaCEP/static/js/main.cde96323.js",
+    "index.html": "/BuscaCEP/index.html",
+    "main.ea83d6b7.css.map": "/BuscaCEP/static/css/main.ea83d6b7.css.map",
+    "main.cde96323.js.map": "/BuscaCEP/static/js/main.cde96323.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea83d6b7.css",
+    "static/js/main.cde96323.js"
+  ]
+}
