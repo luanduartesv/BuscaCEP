@@ -33,6 +33,7 @@ function App() {
     <div className="App">
       <div className='container'>
         <div className='box'>
+        <img src={require('./icon.png')} />
          <h1>Digite o seu <span style={{color: "#23c079"}}>CEP</span> </h1>
 
           <div className='container-input'>

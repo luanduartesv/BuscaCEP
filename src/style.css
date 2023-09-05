@@ -3,7 +3,9 @@ body{
 
     
 }
-
+img{
+    width: 15%;
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -18,7 +20,7 @@ body{
     height: 90vh;
     border-radius: 5px;
     color: white;
-    font-family: Bahnschrift;
+    font-family: Arial;
     box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
     display: flex;
     align-items: center;
@@ -27,8 +29,8 @@ body{
     transition: 0.2s;
 }
 .box h1{
-    font-size: 70px;
-    margin-top: 50px;
+    font-size: 90px;
+    margin-top: 0px;
 }
 
 .container-input{
@@ -41,7 +43,7 @@ body{
 .container-input input{
     background-color: white;
     border: 0;
-    width: 460px;
+    width: 700px;
     outline: none;
     color: rgb(0, 0, 0);
     margin-right: 8px;
@@ -73,7 +75,7 @@ body{
     flex-direction: column;
     background-color: white;
     color: black;
-    width: 480px;
+    width: 710px;
     margin-top: 9px;
     text-align: center;
     padding: 10px;
@@ -94,6 +96,9 @@ body{
     .main{
         width: 440px;
     }
+    img{
+        width: 30%;
+    }
 }
 
 @media (max-width:518px) {
@@ -110,6 +115,10 @@ body{
         width: 300px;
         height: 190px;
     }
+    img{
+        width: 30%;
+    }
+
 }
 @media (max-width:375px) {
     .box h1{
@@ -124,5 +133,8 @@ body{
     .main{
         width: 280px;
         height: 250px;
+    }
+    img{
+        width: 30%;
     }
 }
