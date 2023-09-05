@@ -5,6 +5,8 @@ body{
 }
 img{
     width: 15%;
+    margin-bottom: 20px;
+    margin-top: -10px;
 }
 .container{
     display: flex;
