@@ -31,6 +31,8 @@ function App() {
 
   return (
     <div className="App">
+          <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+
       <div className='container'>
         <div className='box'>
         <img src={require('./icon.png')} />

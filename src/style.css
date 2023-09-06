@@ -108,47 +108,26 @@ img{
         width: 20%;
     }
 }
-@media (max-width: 600px){
+
+@media (max-width:583px) {
     .box h1{
-        font-size: 50px;
-        padding: 10px;
+        font-size: 40px;
         text-align: center;
     }
     .container-input input{
-        width: 360px;
+        width: 200px;
     }
     .main{
-        width: 375px;
-    }
-    img{
-        width: 30%;
-    }
-    .main h2{
-        font-size: 30px;
-    }
-    .main span{
-        font-size: 20px;
-    }
-}
-@media (max-width: 500px){
-    .box h1{
-        font-size: 50px;
-        padding: 10px;
-        text-align: center;
-    }
-    .container-input input{
         width: 220px;
     }
-    .main{
-        width: 240px;
-    }
-    img{
-        width: 30%;
-    }
     .main h2{
         font-size: 30px;
     }
     .main span{
         font-size: 20px;
+    }
+    img{
+        margin-top: 50px;
+        width: 30%;
     }
 }
